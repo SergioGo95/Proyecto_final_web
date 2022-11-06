@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--Estilo del microfono del buscador-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Estilo de la camarita del buscador-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Estilo de letra-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,115 +21,95 @@
     <link rel="stylesheet" href="css/Estyle.css">
 </head>
 <body>
-   
-
-<header>
+    <header>
      <!--barrra de navegacion -->
-     <nav>
-     <article class="navegador">   
-     <ul class=" nav justify-content-end mt-2 mr-5 ">
-        <li class="nav-item">
-            <a class="nav-item" href="#">Gmail</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-item" href="#">Imágenes</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-item" href="#"><span class="glyphicon">&#xe011;</span></a>
-        </li>
-        <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Acceder</a>
-        </li>
-    </ul>
-      </ul>
-    
-
-
-</article>
-     
+        <nav>
+            <article class="navegador">   
+                <ul class=" nav justify-content-end mt-2 mr-5 ">
+                    <li class="nav-item">
+                        <a class="nav-item" href="https://mail.google.com">Gmail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="https://www.google.com.mx/imghp?hl=es-419&tab=ri&authuser=0&ogbl">Imágenes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item" href="#"><span class="glyphicon">&#xe011;</span></a>
+                    </li>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Acceder</a>
+                        </li>
+                    </ul>
+                </ul>
+            </article>
         </nav>
-      
-    
-    
-    
-      
-    <!--Termina barra de navegacion-->  
+        <!--Termina barra de navegacion-->  
+    </header>
 
-
-
-</header>
-<main>
-    <!--Logo de google-->
-    <section>
-        <article class="centrarlogo">
-            <img class="logo" src="icono.png" alt="logo de google">
-        </article>
-    </section>
-    <!--termina logo-->
-    <!--Hacer la barra de buscador-->
-    <section >
-       <article class="buscador1"> 
-            <article class= "buscador2">
-                <span class="lupa" ><i style="font-size:24px" class="fa">&#xf002;</i></span>
-                <input type="text" class="input" placeholder="Busca en Google o escribe una URL" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <article class="imagenes">    
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i style="font-size:24px" class="fa">&#xf130;</i></button>
-                <button class="btn btn-outline-secondary" type="button" id="button-addon3"><i style="font-size:24px" class="fa">&#xf083;</i></button>
+    <main>
+        <!--Logo de google-->
+        <section>
+            <article class="centrarlogo">
+                <img class="logo" src="icono.png" alt="logo de google">
             </article>
-            </article>
-        </article>
-      <!--Termina la barra de buscador-->  
-
-      <!--inicia los dos botones de busqueda-->   
-        <article class="cajabarra">
-        <div class="row ">
-                    
-            <div class="col-md-6 ">
-                <button class="barra1" >Buscar con Google</button>
-           
-            </div>
-            <div class="col-md-6">
-                
-                <button class="barra2" >Voy a tener Suerte</button>
-            </div>
-        </div>   
-        </article>
-      <!--Termina los dos botones de busqueda-->  
-        
-   </section>
-</main>
-<footer>
-    <!--Inicia pie de pagina-->
-    <article class="pais">
-        <a href="">Mexico</a>
-    </article>
-        <article class="pie">
-                <article class="link">
-                    <article >
-                        
-                        <a class="link2" href="">Sobre google</a>
-                        <a class="link2" href="">Publicidad</a>
-                        <a class="link2"href="">Negocios</a>
-                        <a class="link2"href="">Como funciona la busqueda</a>
+        </section>
+        <!--termina logo-->
+        <!--Hacer la barra de buscador-->
+        <section >
+            <article class="buscador1"> 
+                    <article class= "buscador2">
+                        <span class="lupa" ><i style="font-size:24px" class="fa">&#xf002;</i></span>
+                        <input type="text" class="input" placeholder="Busca en Google o escribe una URL" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <article class="imagenes">    
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i style="font-size:24px" class="fa">&#xf130;</i></button>
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon3"><i class="material-icons">&#xe557;</i></button>
+                            </article>
                     </article>
-                </article>    
-                    <article >
+                </article>
+        <!--Termina la barra de buscador-->  
+        <!--inicia los dos botones de busqueda-->   
+            <article class="cajabarra">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <button class="barra1" >Buscar con Google</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="barra2" >Voy a tener Suerte</button>
+                    </div>
+                </div>   
+            </article>
+        <!--Termina los dos botones de busqueda-->  
+        </section>
+    </main>
+    <footer>
+        <!--Inicia pie de pagina-->
+        <article class="pais">
+            <a class="mexico" href="">Mexico</a>
+        </article>
+            <article class="pie">
+                    <article class="link">
                         <article >
-                            <a class="link2" href="">Privacidad</a>
-                            <a class="link2" href="">Condiciones</a>
-                            <a class="link2" href="">Preferencia</a>
+                            <a class="link2" href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre google</a>
+                            <a class="link2" href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                            <a class="link2"href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX">Negocios</a>
+                            <a class="link2"href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona la busqueda</a>
                         </article>
-
-                    </article>
-                  
-    <!--Termina pie de pagina-->           
+                    </article>    
+                        <article >
+                            <article >
+                                <a class="link2" href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                                <a class="link2" href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                                <a class="link2" href="">Preferencia</a>
+                            </article>
+                         </article>
+            </article>             
                     
-</footer>
+        <!--Termina pie de pagina-->           
+     </footer>
  
     <!--Scrip 3school para boton cuadrado navegador-->
 
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!--Script de boostrap, todos los script van al final de la etiqueta body-->

@@ -1,6 +1,5 @@
 body 
 {
-    
     background-color: white;
     display: flex; /*Para poner el footer al pie tambien en body hay */
     flex-direction: column; /*Para poner el footer al pie tambien en body hay */
@@ -53,14 +52,15 @@ body
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    border-radius: 100px;
-    border: 0.1em solid;
-    width: 600px;
+    border-radius: 100px;         /*El radio del buscador*/
+    border: 1px solid #e4e4e4; /*Poner el color del borde*/
+    width: 650px;
     margin-bottom: 0px;
+    font-size: 17px;    /*Tamaño de la letra interna de la barra del buscador*/
     
 }
 
-.input
+.input /*La entrada de datos de la barra aqui escribimos*/
 {
     
     height: 50px;
@@ -78,6 +78,7 @@ body
     margin-left:10px;
     border: none; /*No hay border*/
     outline: none;/*sin linea*/
+    color:  #6e6a6a;
 }
 .imagenes
 {
@@ -87,28 +88,35 @@ body
     border: none; /*No hay border*/
     outline: none;/*sin linea*/
     
+    
 }
-.cajabarra
+
+.cajabarra /*Dos botones de google de buscador*/
 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+
     
     
 }
 .barra1
 {
-    height: 30px;
-    width: 160px;
-    border-radius: 10px;
+    padding-right: 0%;
+    height: 35px;
+    width: 170px;
+    border-radius: 8px;
+    border: 1px solid #e4e4e4;
     font-size: 15px;
 }
 .barra2
 {
-    height: 30px;
-    width: 160px;
-    border-radius: 10px;
+    padding-left: 0%;
+    height: 35px;
+    width: 170px;
+    border-radius: 7px;
+    border: 1px solid #e4e4e4;
     font-size: 15px;
 }
 .pagina
@@ -120,7 +128,10 @@ body
 }
 footer
 {
+    
     margin-top: auto; /*Para poner el footer al pie tambien en body hay */
+    background-color: rgb(243, 240, 240);
+    
     
 }
 
@@ -131,19 +142,31 @@ footer
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 10px;
-    
-   
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #e4e4e4; /*Poner borde */
 }
 .pais
 {
-    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    
 }
 
 .link2  /*Hacemos espaciado de las letras del footer*/
 {
     margin: 10px;
+    font-size: 16px;
+    color:rgb(141, 137, 137);
+}
+.mexico
+{
+   
+    font-size: 16px;
+    color:rgb(141, 137, 137);
 }
 
 
