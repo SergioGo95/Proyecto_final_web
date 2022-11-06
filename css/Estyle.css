@@ -2,6 +2,9 @@ body
 {
     
     background-color: white;
+    display: flex; /*Para poner el footer al pie tambien en body hay */
+    flex-direction: column; /*Para poner el footer al pie tambien en body hay */
+    min-height: 100vh; /*Para poner el footer al pie tambien en body hay */
 }
 .nav-item{
 
@@ -108,3 +111,41 @@ body
     border-radius: 10px;
     font-size: 15px;
 }
+.pagina
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+footer
+{
+    margin-top: auto; /*Para poner el footer al pie tambien en body hay */
+    
+}
+
+.pie
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+   
+    
+}
+.pais
+{
+    margin-left: 20px;
+}
+
+.link2  /*Hacemos espaciado de las letras del footer*/
+{
+    margin: 10px;
+}
+
+
+
+
