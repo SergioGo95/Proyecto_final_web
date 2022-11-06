@@ -1,0 +1,110 @@
+body 
+{
+    
+    background-color: white;
+}
+.nav-item{
+
+  color: black;
+
+}
+.navegador{
+    height: 100%;
+    font-size: 17px;
+}
+
+.centrarlogo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 150px;
+   
+   
+   
+}
+.logo
+{
+    width: 300px;
+    height: 100px;
+   
+
+}
+
+.buscador1 /*centrado de toda la barra con la imgaenes*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+
+   
+    
+}
+.buscador2 /*Contorno de la barra de navegacion*/
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: 0.1em solid;
+    width: 600px;
+    margin-bottom: 0px;
+    
+}
+
+.input
+{
+    
+    height: 50px;
+    width: 900px;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+
+    
+      
+}
+.lupa /*Lupa del buscador*/
+{
+    margin-left:10px;
+    border: none; /*No hay border*/
+    outline: none;/*sin linea*/
+}
+.imagenes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; /*No hay border*/
+    outline: none;/*sin linea*/
+    
+}
+.cajabarra
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+.barra1
+{
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.barra2
+{
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 15px;
+}

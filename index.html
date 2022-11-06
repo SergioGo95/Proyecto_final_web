@@ -7,22 +7,159 @@
     <title>Clon_google</title>
     <!--Estilo de bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-
+    <!--Estilo de boton de google navegador-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Estilo del microfono del buscador-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Estilo de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!--Link Estilo CSS debe ir al final de head-->
     <link rel="stylesheet" href="css/Estyle.css">
 </head>
 <body>
-    <header>
+   
 
-    </header>
-    <main>
+<header>
+     <!--barrra de navegacion -->
+     <nav>
+     <article class="navegador">   
+     <ul class=" nav justify-content-end mt-2 mr-5 ">
+        <li class="nav-item">
+            <a class="nav-item" href="#">Gmail</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-item" href="#">Imágenes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-item" href="#"><span class="glyphicon">&#xe011;</span></a>
+        </li>
+        <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Acceder</a>
+        </li>
+    </ul>
+      </ul>
+    
+
+
+</article>
+     
+        </nav>
+      
+    
+    
+    
+      
+    <!--Termina barra de navegacion-->  
+
+
+
+</header>
+<main>
+    <!--Logo de google-->
+    <section>
+        <article class="centrarlogo">
+            <img class="logo" src="icono.png" alt="logo de google">
+        </article>
+    </section>
+    <!--termina logo-->
+    <!--Hacer la barra de buscador-->
+    <section >
+       <article class="buscador1"> 
+            <article class= "buscador2">
+                <span class="lupa" ><i style="font-size:24px" class="fa">&#xf002;</i></span>
+                <input type="text" class="input" placeholder="Busca en Google o escribe una URL" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <article class="imagenes">    
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i style="font-size:24px" class="fa">&#xf130;</i></button>
+                <button class="btn btn-outline-secondary" type="button" id="button-addon3"><i style="font-size:24px" class="fa">&#xf083;</i></button>
+            </article>
+            </article>
+        </article>
+        <article class="cajabarra">
+        <div class="row ">
+                    
+            <div class="col-md-6 ">
+                <button class="barra1" >Buscar con Google</button>
+           
+            </div>
+            <div class="col-md-6">
+                
+                <button class="barra1" >Voy a tener Suerte</button>
+            </div>
+        </div>   
+        </article>
+        
+   </section>>
+   <!--Termina la barra de buscador-->
+   <!--inicia los dos botones de busqueda-->
+</main>
+            
+
+
+
+
+
+
+<!--<article class="cajabarra">
+            <button class="barra1" >Buscar con Google</button>
+            <br>
+            <button class="barra1" >Voy a tener Suerte</button>
+        </article>
+
+
+
+                <div class="row ">
+                    
+                    <div class="col-md-2 ">
+                        <h4 class="text-primary">G</h4>
+                    </div>
+                    <div class="col-md-2  pl-4">
+                        <h4 class="text-danger">o</h4>
+                    </div>
+                    <div class="col-md-2 pr-0 pl-0">
+                        <h4 class="text-warning">o</h4>
+                    </div>
+                    <div class="col-md-2 pl-0 pr-0">
+                        <h4 class="text-primary">g</h4>
+                    </div>
+                    <div class="col-md-2 pr-0 pl-0">
+                        <h4 class="text-success">l</h4>
+                    </div>
+                    <div class="col-md-2 pr-0 pl-0">
+                        <h4 class="text-danger">e</h4>
+                    </div>
+                
+                </div>
+            
+    
+            
+ </section>
+    Termina logo de google-->
+   
+    <!--Hacemos el buscador de google-->
+   <!--  <section class=" buscador1">
+        <article class= "buscador2">
+               <span class="lupa" ><i style="font-size:24px" class="fa">&#xf002;</i></span>
+               <input type="text" class="input" placeholder="Busca en Google o escribe una URL" aria-label="Recipient's username" aria-describedby="button-addon2">
+               <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i style="font-size:24px" class="fa">&#xf130;</i></button>
+       </article>
+   </section>>
+ 
+
+        
 
     </main>
     <footer>
-        
-    </footer>
 
+    </footer>
+    
+
+    Scrip 3school para boton cuadrado navegador-->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!--Script de boostrap, todos los script van al final de la etiqueta body-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
